@@ -1,0 +1,22 @@
+{
+  "name": "testcafebeta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "base64-img": "^1.0.4",
+    "ffmpeg": "^0.0.4",
+    "testcafe": "^2.5.0"
+  },
+  "devDependencies": {
+    "@applitools/eyes-testcafe": "^1.17.4",
+    "@cucumber/cucumber": "^9.1.0",
+    "command": "^0.0.5"
+  }
+}
