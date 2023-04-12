@@ -1,0 +1,14 @@
+name:  TestCafe workflow
+on: [push]
+
+jobs:
+  build:
+    name: Run TestCafe Test
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install TestCafe from npm and Run Tests
+      uses: DevExpress/testcafe-action@latest
+      with:
+        args: "chrome RegistrationTest.js"
